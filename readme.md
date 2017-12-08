@@ -1,6 +1,10 @@
 ## GDIPlus_Demo
 
-该演示程序演示了球形进度条效果
+使用VS2008编译，基于GDIPlus实现的球体进度条效果
+
+GitHub：https://github.com/wodeaei/GDIPlus_Demo.git
+
+博客链接： http://www.cnso.org/243/4829.html
 
 ## 效果截图
 ![image](http://www.cnso.org/wp-content/uploads/2017/12/GDIPlus_Demo-1.png)
