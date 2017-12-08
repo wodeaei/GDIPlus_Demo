@@ -1,0 +1,205 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GDIPlus_Demo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GDIPlus_Demo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GDIPLUS_DEMO_DIALOG DIALOGEX 0, 0, 375, 290
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "GDIPlus_Demo"
+FONT 9, "Tahoma", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_LEFT,232,55,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,55,10,14
+    EDITTEXT        IDC_EDIT_TOP,295,55,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,321,54,10,14
+    EDITTEXT        IDC_EDIT_WIDTH,232,77,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN3,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,77,10,14
+    EDITTEXT        IDC_EDIT_HEIGHT,295,76,26,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN4,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,321,76,10,14
+    CONTROL         "显示边框",IDC_CHECK_BORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,218,98,43,10
+    PUSHBUTTON      "更换背景图片",IDC_BUTTON_CHANGEBGIMG,216,17,50,14
+    PUSHBUTTON      "更改背景色",IDC_BUTTON3,287,17,50,14
+    CONTROL         "内存使用率",IDC_CHECK_UPDATEMEMORY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,216,231,50,10
+    LTEXT           "",IDC_STATIC_TIPS,218,246,138,10,SS_ENDELLIPSIS
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | TBS_NOTIFYBEFOREMOVE | WS_TABSTOP,213,129,100,15
+    PUSHBUTTON      "球体填充色",IDC_BUTTON_BODY,316,129,43,14
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | TBS_NOTIFYBEFOREMOVE | WS_TABSTOP,213,161,100,15
+    PUSHBUTTON      "边框高亮填充",IDC_BUTTON6,316,161,43,14
+    CONTROL         "",IDC_SLIDER3,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | TBS_NOTIFYBEFOREMOVE | WS_TABSTOP,213,145,100,15
+    PUSHBUTTON      "边框填充",IDC_BUTTON7,316,145,43,14
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | TBS_NOTIFYBEFOREMOVE | WS_TABSTOP,213,194,100,15
+    CONTROL         "",IDC_SLIDER5,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | TBS_NOTIFYBEFOREMOVE | WS_TABSTOP,262,228,99,15
+    LTEXT           "球体透明度",IDC_STATIC,316,196,35,8
+    CONTROL         "",IDC_SLIDER6,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | TBS_NOTIFYBEFOREMOVE | WS_TABSTOP,213,177,100,15
+    PUSHBUTTON      "文本颜色",IDC_BUTTON8,316,177,43,14
+    GROUPBOX        "窗体背景修改",IDC_STATIC,211,7,153,29
+    GROUPBOX        "球体颜色及透明体",IDC_STATIC,211,39,153,176
+    GROUPBOX        "模拟进度",IDC_STATIC,211,217,153,45
+    CONTROL         "",IDC_SLIDER7,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | TBS_NOTIFYBEFOREMOVE | WS_TABSTOP,213,112,100,15
+    PUSHBUTTON      "球体背景色",IDC_BUTTON_BODY2,316,112,43,14
+    LTEXT           "左：",IDC_STATIC,218,57,15,8
+    LTEXT           "顶：",IDC_STATIC,280,57,15,8
+    LTEXT           "宽：",IDC_STATIC,218,79,15,8
+    LTEXT           "高：",IDC_STATIC,280,79,15,8
+    CONTROL         "博客地址：<a>http://www.cnso.org</a>",IDC_SYSLINK1,"SysLink",WS_TABSTOP,215,270,107,9
+    CONTROL         "<a>关于作者</a>",IDC_SYSLINK2,"SysLink",WS_TABSTOP,329,270,32,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "GDIPlus_Demo.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "GDIPlus_Demo.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GDIPLUS_DEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 368
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GDIPlus_Demo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
