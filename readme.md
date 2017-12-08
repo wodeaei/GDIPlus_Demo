@@ -4,7 +4,9 @@
 
 GitHub：https://github.com/wodeaei/GDIPlus_Demo.git
 
-博客链接： http://www.cnso.org/243/4829.html
+博客首页：http://www.cnso.org
+
+博客文章： http://www.cnso.org/243/4829.html
 
 ## 效果截图
 ![image](http://www.cnso.org/wp-content/uploads/2017/12/GDIPlus_Demo-1.png)
